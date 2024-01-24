@@ -1,4 +1,4 @@
-name: Pre-Release - NuGet
+name: Pre-Release - NuGet.org
 
 on:
   release:
