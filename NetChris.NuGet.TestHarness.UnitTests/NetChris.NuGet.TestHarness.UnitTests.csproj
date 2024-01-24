@@ -32,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NetChris.NuGet.TestHarness.SubPackage\NetChris.NuGet.TestHarness.SubPackage.csproj" />
     <ProjectReference Include="..\NetChris.NuGet.TestHarness\NetChris.NuGet.TestHarness.csproj" />
   </ItemGroup>
 
