@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <LangVersion>10.0</LangVersion>
+    <RootNamespace>NetChris.NuGet.TestHarness</RootNamespace>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+    <PackageId>NetChris.NuGet.TestHarness</PackageId>
+    
+    <PackageReadmeFile>Package-README.md</PackageReadmeFile>
+    <PackageIcon>nuget-icon.png</PackageIcon>
+
+    <PackageTags>netchris;dotnet-core</PackageTags>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Package-README.md">
+      <PackagePath>/</PackagePath>
+      <Pack>true</Pack>
+    </None>
+    <None Include="images/nuget-icon.png">
+      <PackagePath>/</PackagePath>
+      <Pack>true</Pack>
+    </None>
+  </ItemGroup>
+</Project>
