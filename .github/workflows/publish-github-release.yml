@@ -1,4 +1,4 @@
-name: Release
+name: Release - GitHub
 
 on:
   release:
@@ -10,5 +10,5 @@ jobs:
       contents: read
       packages: write
     # TODO - SHA
-    uses: NetChris/workflows/.github/workflows/release-dotnet-build-test-pack-push-default.yml@separate-workflows-for-nuget-org
+    uses: NetChris/workflows/.github/workflows/release-nuget-github.yml@separate-workflows-for-nuget-org
     secrets: inherit
