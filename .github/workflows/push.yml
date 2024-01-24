@@ -1,0 +1,11 @@
+name: Push
+
+on: [push]
+
+jobs:
+  push:
+    permissions:
+      contents: read
+      packages: write
+    # TODO - SHA
+    uses: NetChris/workflows/.github/workflows/push-dotnet-build-test-pack-push-default.yml@separate-workflows-for-nuget-org
